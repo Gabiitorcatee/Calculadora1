@@ -8,7 +8,7 @@ body{
 font-family: 'Segoe UI',  sans-serif;
 }
 .calculadora{
-background-color:#333;
+background-color:#8bc5ec;
 padding: 20px;
 border-radius:20px;
 box-shadow: 0 10px 25px;
@@ -16,20 +16,20 @@ width: 320px;
 }
 .visor{
   background-color: black;
-  color: #0f0;
+  color: rgb(0, 174, 255);
   font-size: 36px;
   text-align: right;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
-  box-shadow:inset 008px #0f0 ;
+  box-shadow:inset 008px rgb(1, 81, 146) ;
   height: 60px;
   overflow-x: auto;
 }
 .botoes{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  gap: 10px;
+  gap: 10px;#005379;
 }
 button {
   padding: 20px;
@@ -47,12 +47,12 @@ button:hover {
 }
 
 button.igual {
-  background-color: #009688;
+  background-color: #022f85;
   grid-row: span 2;
 }
 
 button.igual:hover {
-  background-color: #00796b;
+  background-color: #022f85;
 }
 
 button.zero {
