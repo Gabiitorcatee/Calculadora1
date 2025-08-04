@@ -29,7 +29,7 @@ width: 320px;
 .botoes{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  gap: 10px;#005379;
+  gap: 10px;
 }
 button {
   padding: 20px;
